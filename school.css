@@ -1,0 +1,233 @@
+body{
+    font-family: sans-serif;
+    clear: both;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right, rgb(0, 119, 255),rgb(177, 238, 223));
+    padding: 0 !important
+}
+.navbar img{
+    width: 200px;
+    padding-left: 20px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+
+}
+.navbar-nav li a{
+    color: white;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars{
+    color: black;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none;
+}
+.get-in{
+    background-color: rgb(177, 238, 223);
+    border: none;
+    border-radius: 15px;
+    padding-bottom: 5px;
+    
+    box-shadow: none;
+    transition: 1s;
+    
+}
+.get-in:hover{
+    transform: scale(1.3);
+    background-color: rgb(177, 238, 223);
+    z-index: 2;
+
+}
+/*-------Banner Section-------*/
+#banner{
+    background-image:linear-gradient(to right,rgb(0, 119, 255),rgb(177, 238, 223));
+    
+}
+.promo{
+    color:white;
+    margin-top: 100px;
+}
+.play-in{
+    background-image:linear-gradient(to right,rgb(0, 119, 255),rgb(177, 238, 223));
+    
+    border: none;
+    border-radius: 20px;
+    box-shadow: none;
+    padding: 8px 25px;
+    transition: 1s;
+    
+
+}
+.play-in:hover{
+    transform: scale(1.3);
+    background-image:linear-gradient(to right,rgb(0, 119, 255),rgb(177, 238, 223));
+    z-index: 2;
+}
+.col-md-6{
+    padding-bottom: 20px;
+}
+#banner img{
+    width: 500px;
+}
+/*------Resources section-------*/
+
+#resources{
+    padding: 80px;
+    border: none;
+    border-radius: 10px;
+    display: flexbox;
+    
+}    
+.resource-img{
+    width: 100px;
+    margin-top: 20px;
+}
+.reso{
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    background:  rgb(206, 240, 231);
+    transition: 1s;
+}
+.reso:hover{
+    transform: scale(1.3);
+    background:#72e9e9 ;
+    z-index: 2;
+}
+.reso h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.title::before{
+    content: '';
+    background: #72e9e9;
+    height: 5px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after{
+    content: '';
+    background: #72e9e9;
+    height: 10px;
+    width: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+#resources .btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background: #72e9e9;
+    transition: 1s;
+
+}
+#resources .btn-primary:hover{
+    transform: scale(1.3);
+    background: #72e9e9;
+    z-index: 2;
+
+}
+/*--- Online Courses---*/
+
+
+.card{
+    
+    box-shadow: 10px 10px 40px lightgray;
+    
+   
+}
+.card-img-top{
+    padding: 20px 10px;
+}
+.card-end{
+    font-weight: 500;
+    color: rgb(32, 32, 32);
+}
+
+.card-end img{
+    vertical-align: middle;
+ }
+ .card-end p{
+     padding-right: 10px
+ }
+.buy-now{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background: #72e9e9;
+    font-weight: bold;
+    transition: 1s;
+}
+.buy-now:hover{
+    transform: scale(1.3);
+    background: #72e9e9;
+    z-index: 2;
+}
+
+/*--Tastimonial --*/
+#testimonial{
+    margin: 100px 0px;
+}
+.ts-row p{
+    margin-top: 20px;
+    padding-right: 40px;
+    font-weight: 600;
+    color: rgb(66, 65, 65);
+}
+.ts-row img{
+    padding-left: 80px;
+}
+/*---last one--*/
+#last-one{
+    background: rgb(37, 37, 37);
+    color: white;
+    
+}
+.last-one{
+    padding-top: 50px ;
+}
+#last-one ul li{
+    margin: 10px 0;
+}
+#last-one ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+.li-1, .li-2, .li-3 {
+    
+    font-weight: bold;
+}
+
+footer {
+    padding-top: 40px; ;
+    text-align: center;
+}
+
+.card-end{
+   padding-top: 20px;
+   padding-bottom: 0px
+}
+.card-end p{
+    padding-right: 10px
+}
